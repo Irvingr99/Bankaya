@@ -1,0 +1,102 @@
+[
+    {
+        "customer_id": 23012,
+        "store_id": 400,
+        "creation_timestamp": "2023-04-10T10:05:02Z",
+        "items_bought": [
+            {"item_id": 123456, "quantity": 2, "total_price": 20},
+            {"item_id": 123456, "quantity": 2, "total_price": 5},
+            {"item_id": 123490, "quantity": 10, "total_price": 2}
+        ]
+    },
+    {
+        "customer_id": 53218,
+        "store_id": 201,
+        "creation_timestamp": "2023-05-15T14:30:45Z",
+        "items_bought": [
+            {"item_id": 789012, "quantity": 1, "total_price": 15},
+            {"item_id": 789012, "quantity": 3, "total_price": 30},
+            {"item_id": 567890, "quantity": 5, "total_price": 12}
+        ]
+    },
+    {
+        "customer_id": 98765,
+        "store_id": 602,
+        "creation_timestamp": "2023-06-20T08:12:30Z",
+        "items_bought": [
+            {"item_id": 456789, "quantity": 4, "total_price": 40},
+            {"item_id": 123456, "quantity": 1, "total_price": 8},
+            {"item_id": 789012, "quantity": 8, "total_price": 24}
+        ]
+    },
+    {
+        "customer_id": 11223,
+        "store_id": 105,
+        "creation_timestamp": "2023-07-05T18:45:00Z",
+        "items_bought": [
+            {"item_id": 567890, "quantity": 3, "total_price": 30},
+            {"item_id": 123490, "quantity": 6, "total_price": 3},
+            {"item_id": 456789, "quantity": 2, "total_price": 20}
+        ]
+    },
+    {
+        "customer_id": 44455,
+        "store_id": 303,
+        "creation_timestamp": "2023-08-12T12:20:15Z",
+        "items_bought": [
+            {"item_id": 123490, "quantity": 5, "total_price": 5},
+            {"item_id": 567890, "quantity": 4, "total_price": 16},
+            {"item_id": 789012, "quantity": 2, "total_price": 6}
+        ]
+    },
+    {
+        "customer_id": 67890,
+        "store_id": 504,
+        "creation_timestamp": "2023-09-28T09:55:30Z",
+        "items_bought": [
+            {"item_id": 456789, "quantity": 3, "total_price": 30},
+            {"item_id": 123456, "quantity": 1, "total_price": 10},
+            {"item_id": 789012, "quantity": 7, "total_price": 21}
+        ]
+    },
+    {
+        "customer_id": 11122,
+        "store_id": 106,
+        "creation_timestamp": "2023-10-15T15:40:00Z",
+        "items_bought": [
+            {"item_id": 567890, "quantity": 2, "total_price": 20},
+            {"item_id": 123490, "quantity": 3, "total_price": 3},
+            {"item_id": 456789, "quantity": 5, "total_price": 50}
+        ]
+    },
+    {
+        "customer_id": 33344,
+        "store_id": 202,
+        "creation_timestamp": "2023-11-02T11:10:45Z",
+        "items_bought": [
+            {"item_id": 123456, "quantity": 4, "total_price": 40},
+            {"item_id": 123490, "quantity": 6, "total_price": 6},
+            {"item_id": 567890, "quantity": 1, "total_price": 10}
+        ]
+    },
+    {
+        "customer_id": 55566,
+        "store_id": 405,
+        "creation_timestamp": "2023-12-18T08:25:15Z",
+        "items_bought": [
+            {"item_id": 789012, "quantity": 2, "total_price": 20},
+            {"item_id": 567890, "quantity": 3, "total_price": 15},
+            {"item_id": 456789, "quantity": 4, "total_price": 40}
+        ]
+    },
+    {
+        "customer_id": 99900,
+        "store_id": 601,
+        "creation_timestamp": "2024-01-03T17:00:00Z",
+        "items_bought": [
+            {"item_id": 123490, "quantity": 5, "total_price": 5},
+            {"item_id": 123456, "quantity": 2, "total_price": 10},
+            {"item_id": 789012, "quantity": 6, "total_price": 18}
+        ]
+    }
+]

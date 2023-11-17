@@ -1,0 +1,38 @@
+1. How do you build a Data Pipeline? Feel free to explain with a fictional example.
+	
+	Un Data Pipeline es un conjunto de procesos que se ejecutan en secuencia para realizar un proceso ETL (extracción, transformación y carga). 
+Un ejemplo de un data pipeline sería:
+	* Como primer paso, se puede crear un script en Python donde se extraigan datos de distintas Redes Sociales (Facebook, Instagram, Twitter, etc.) con el fin de contar con dichos datos.
+	* Un segundo paso, sería realizar la ingesta de esos datos dentro de un datalake, que será donde se almacenarán los datos extraídos de las distintas fuentes, en este caso las Redes Sociales.
+	* Una vez que se cuenten con esos datos ingestados, se llevarían a cabo distintas transformaciones como pueden ser la estandarización del formato de fecha de todas las Redes Sociales o cambio de dstos en algunos campos para que se puedan almaecenar en una tabla en común.
+	* Un siguiente paso, sería crear algún tipo de modelado donde se estarían guardando los datos ya transformados, agregados y estandarizados. Este lugar podría ser en un DataWarehouse, esto con el fin de que se puedan realizar análsiis posteriores con dichos datos.
+	* Un paso final, sería crear ciertos tableros, análisis o reportes que ayuden a las distintas áreas de negocio a tomar decisiones.
+
+
+2. Explain the differences between OLAP and OLTP Systems.
+
+	La principal diferencia es que un sistema OLTP está enfocado a la transaccionalidad, por lo que debe estar siempre disponible y con datos actualizados para poder continuar con la operación, mientras que un sistema OLAP, está enfocado al análisis de datos, por lo que maneja grandes volúmnes de datos históricos.
+
+3. What are the main features of a production data pipeline?
+
+	Algunas de las principales características que debe tener un Data pipeline que se encuentra en un ambiente productivo son:
+	* El proceso debe ser tolerante a fallos para poder recuperarse de alguna inconsistencia que se pudiera presentar.
+	* Debe estar desarrollado pensando en la escalabilidad, ya que al necesitar algun cambio o alguna actualización debe ser lo más sencillo posible realizarlo.
+	* Se debe contar con un sistema de versionamiento para poder tener el control de los distintos features que se desarrollan en cada versión o liberación a producción.}
+	* Debe existir algún tipo de monitoreo o log del pipeline para detectar y documentar posibles fallas que se presenten en el flujo.
+
+4. How do you monitor a data pipeline? and If you have had experience with pipelines
+describe how you did it?
+		
+	Para asegurar que un pipeline está funcionando como debería, se debe tener varias cosas en cuenta, una de ellas es crear un log con los datos necesarios de las ejecuciones que va teniendo el proceso para que se documente si existe algún error. Se deberían hacer auditorías cada cierto tiempo para validar que todo está creado conforme a políticas y lineamientos. Finalmente se puede tener alguna herramienta especializada como DataDog, que ayuda a validar y monitorizar logs y diversas métricas de procesos en la nube, en algunos casos, se cuenta con un equipo especializado de obsevability, el cuál se encarga de dichas herramientas y tareas.
+
+5. Explain what a data contract is and how you would implement one
+
+	Un contrato de datos en el contexto de datos, es un conjunto de reglas y lineamientos que contienen esquemas, estructuras, tipos de datos y/o reestricciones en cuanto al uso y transformación de los datos en sus diversas etapas de un flujo de datos. Todos estos lineamientos, reglas y protocolos se pueden llevar a cabo y administrar por un área especial dentro del área de datos llamada Data Governance, que sería la encargada de llevar dichas funciones.
+
+6.
+
+
+7. In programming, what is unit testing and code coverage?
+
+	Las pruebas unitarias son pruebas automatizadas que validan el comportamiento de pedazos de código, como funciones, clases, etc., para comprobar su correcto funcionamiento. Mientras que el code coverage es una métrica que sirve para conocer las partes del código que han sido probadas y cuáles no.
